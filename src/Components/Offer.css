@@ -1,0 +1,7 @@
+.OfferCard:hover {
+  background-color: #e41c49;
+  color: white;
+}
+.Link h6:hover {
+  color: #e41c49;
+}

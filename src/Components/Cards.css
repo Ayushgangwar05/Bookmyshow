@@ -1,0 +1,14 @@
+.card .card-img-top:hover {
+  filter: blur(2px);
+  opacity: 0.9;
+  filter: drop-shadow(0.8);
+}
+.card .Hover {
+  z-index: 1;
+  opacity: 0;
+}
+.card .Hover:hover {
+  opacity: 1;
+  filter: brightness(100%);
+  transition: all 0.8s ease 0s;
+}
