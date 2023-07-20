@@ -1,9 +1,6 @@
 import React from "react";
-import "../Components/Navbar.css";
-import { Link, Route, BrowserRouter as Router } from "react-router-dom";
-import AllRouter from "./AllRouter";
-import Movies from "./Movies";
-
+import "../Navbar/Navbar";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 function Navbar1() {
   return (
     <div
@@ -19,10 +16,7 @@ function Navbar1() {
         <ul class="nav">
           <li class="nav-item">
             <Router>
-              <AllRouter />
-              <Link style={{ color: "#A8A8A8" }} to="/Movies">
-                Movie
-              </Link>
+              <Link to="/Movies">Movies</Link>
             </Router>
           </li>
           <li class="nav-item">

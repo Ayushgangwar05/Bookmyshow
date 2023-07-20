@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../Gallery/Screenshot (400).png";
-import "../Components/Navbar.css";
+import "../Navbar/Navbar.css";
 
 function Navbar({ SideBox }) {
   return (

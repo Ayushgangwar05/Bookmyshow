@@ -60,7 +60,7 @@ import Image57 from "../Gallery/axis-bank-titanium-rewards-offer-axstit0417.jpg"
 import Image58 from "../Gallery/citibank-buy-one-get-one-offer-on-citigold-citigold-private-client--citi-priority-debit-cards-citibogodb.jpg";
 import Image59 from "../Gallery/flat-inr-50--on-min-purchase-of-2-ticket-movies50.jpg";
 import Image60 from "../Gallery/lazypay-cashback-offer-lazypay0623.avif";
-import "../Components/Cards.css";
+import "../Cards/Cards.css";
 function OfferCards() {
   return (
     <div
@@ -80,8 +80,9 @@ function OfferCards() {
           justifyContent: "center",
         }}
       >
-        <div 
-          class="card" id="card"
+        <div
+          class="card"
+          id="card"
           style={{
             width: "14.5vw",
             height: "57vh",

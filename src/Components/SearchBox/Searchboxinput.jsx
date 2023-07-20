@@ -2,7 +2,7 @@ import React from "react";
 
 function Searchboxinput() {
   return (
-    <div style={{ width: "100%", height: "100vh" }}>
+    <div id="Searchbox" style={{ width: "100%", height: "100vh" }}>
       <div
         style={{
           display: "flex",
